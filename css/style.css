@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+.Title{
+    width: 80px; height: 80px;
+    vertical-align: -25px;
+}
+
+#TB{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
