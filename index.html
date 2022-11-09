@@ -11,49 +11,71 @@
     <title>Toboolist</title>
 </head>
 <body>
-    <header>
-        <!-- Logo + 2 bottoni -->
-        <div>
-            <img class="Title" src="img/Logo.png" alt="">
-            <span id="TB" >Toboolist</span>
+      <!-- Sezione Logo -->
+      <header>
+        <div class="Logo">
+            <img src="img/Logo.png" alt="Logo">
+                <h1>Toboolist</h1>
         </div>
-
-        <div>
-            <button>Add Task</button>
-            <button>Add Section</button>
-
-        </div>
-        
-
     </header>
 
-    <main >
-        <!-- 3 sezioni -->
+    <!-- Sezione Todolist -->
+    <main>
+        <div class="bottoni">
+            <input type="button" class="b-task" value="Add Task">
+            <input type="button" class="b-section" value="Add Section">
+        </div>
 
-        <section>
-            <!-- New Task -->
-
-
-        </section>
+        <!-- per lo stacco -->
+        <div id="margine">  
+        </div>
         
-        <section>
-            <!-- Today -->
+
+        <div class="contenitore-main">
+            <!-- prima lista -->
+            <ul>
+                <span class="tendina"><strong> New Task</strong></span>
+                <li class="fatto"> Quarterly Newsletter
+                <input class="editorial" type="button" value="Editorial">
+                </li>
+            </ul>
+            <br>
+            <!-- seconda lista -->
+            <ul>
+                <span class="tendina"><strong> Today</strong></span>
+                <li class="fatto"> Rectruiting Blog Post
+                    <input class="editorial" type="button" value="Editorial">
+                </li>
+                <li class="fatto"> Mobile App Launch
+                    <input class="goals" type="button" value="Q1 Goals">
+                </li>
+                <li class="non-fatto"> Interview John H.
+                    <input class="recutriting" type="button" value="Rectruiting">
+                </li>
+                <li class="fatto"> Summit Update to mobile storefronts
+                    <input class="mobile" type="button" value="Mobile">
+                </li>
+            </ul>
+            <br>
+            <!-- terza lista -->
+            <ul>
+                <span class=tendina><strong> Upcoming</strong></span>
+                <li class="non-fatto"> Schelude meeting with Alex
+                </li>
+                <li class="fatto"> Homepage refresh
+                    <input class="website" type="button" value="Website">
+                </li>
+                <li class="fatto"> Onboard new sales team members
+                    <input class="sales" type="button" value="Sales">
+                </li>
+                <li class="fatto"> Review editorial calendar
+                    <input class="editorial" type="button" value="Editorial">
+                </li>
+            </ul>
 
 
-        </section>
-
-        <section>
-            <!-- Upcoming -->
-
-
-
-        </section>
-
-
-
-
+        </div>
     </main>
-
 
 
     

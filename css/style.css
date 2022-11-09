@@ -1,19 +1,200 @@
-*{
+/* RESET */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
-.Title{
-    width: 80px; height: 80px;
-    vertical-align: -25px;
-}
-
-#TB{
-    font-size: 40px;
+body {
+    background-color: #0e5a14;
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+
 }
 
+header {
+    height: 150px;
+
+}
+
+
+.Logo {
+    background-color: white;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.contenitore-main {
+    background-color: white;
+    height: 600px;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 50px;
+}
+
+.bottoni {
+    background-color: white;
+    height: 50px;
+    width: 50%;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px;
+    padding-left: 50px;
+}
+
+#margine {
+        margin: 3px auto;
+}
+
+.b-task {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #47adf1;
+    color: white;
+    border: 1px solid #47adf1;
+    width: fit-content;
+    
+}
+
+.b-section {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+    width: fit-content;
+
+
+}
+
+.arrow {
+    content: "\9660";
+
+}
+
+.tendina {
+    font-size: 1.2em;
+
+}
+
+.tendina::before {
+    content: '\25BC';
+    font-size: 16px;
+}
+
+.fatto::before {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    color: #6bc3ad;
+    border-radius: 50%;
+    border-color: #6bc3ad;
+    border: 1px solid;
+    padding: 2px;
+    content: "\2713";
+    font-size: 10px;
+}
+
+.fatto {
+    padding: 5px ;
+}
+
+.non-fatto {
+    padding: 5px ;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 3em;
+    vertical-align: text-bottom;
+}
+
+
+
+.non-fatto::before {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    color: #ed7d78;
+    border-radius: 50%;
+    border-color: #ed7d78;
+    border: 1px solid;
+    padding: 2px;
+    content: "\2716";
+    font-size: 10px;
+}
+
+.editorial {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    background-color: rgb(0, 92, 5);
+    border: 1px solid rgb(179, 97, 3);
+    padding: 5px;
+}
+
+.goals {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    background-color: purple;
+    border: 1px solid purple;
+    padding: 5px;
+}
+
+.recutriting {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    background-color: green;
+    border: 1px solid green;
+    width: 100px;
+    padding: 5px;
+}
+
+.website {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    background-color: rgb(13, 0, 87);
+    border: 1px solid rgb(255, 0, 43);
+    padding: 5px;
+}
+
+.mobile {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 5px;
+}
+
+.sales {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    background-color: rgb(46, 27, 156);
+    border: 1px solid rgb(196, 177, 14);
+    padding: 5px;
+}
+
+
+
+ul {
+    list-style: none;
+  }
+
+  li {
+    padding: 10px;
+  }
